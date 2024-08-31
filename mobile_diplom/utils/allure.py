@@ -3,8 +3,6 @@ import os
 import allure
 from selene import browser
 
-import config
-
 
 def add_screenshot():
     png = browser.driver.get_screenshot_as_png()
