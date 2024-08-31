@@ -58,10 +58,11 @@ pytest --context=local_emulator
 ```
 Для запуска в эмуляторе необходимо:
 - Запустить девайс Android Virtual Device
-- Запустить Appium Server
+- Запустить Appium Server (командой `appium`)
 - Запустить команду для запуска тестов
 
-Тесты запускаются по <a target="_blank" href="http://localhost:4723/wd/hub">адресу</a>
+Тесты запускаются по <a target="_blank" href="http://localhost:4723/wd/hub">адресу</a> из Jenkins
+
 ## Этапы реализации
 
 ### 1. Формирование тест-кейсов в Allure Test Ops
@@ -105,6 +106,7 @@ pytest --context=local_emulator
 
 ### Пример дашборда в **Allure TestOps**
 <img src="/design/images/testops_dashboards.png">
+<a target="_blank" href="https://allure.autotests.cloud/project/4416/dashboards">Allure TestOps</a>
 
 ### Пример запуска в **Allure TestOps**
 <img src="/design/images/run.png">
